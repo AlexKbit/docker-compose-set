@@ -1,0 +1,9 @@
+CREATE EXTERNAL TABLE file_users
+(
+id STRING,
+name STRING,
+surname STRING,
+email STRING
+)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY ','
+LOCATION '/data/users';
